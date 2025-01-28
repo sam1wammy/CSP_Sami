@@ -1,1 +1,3 @@
-# Samatha Naranjo, Variable
+# Samatha Naranjo, Variable notes
+
+print("it worked!")
