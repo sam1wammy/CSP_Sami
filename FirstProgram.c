@@ -1,3 +1,7 @@
+// Samantha naranjo, First Progam c
+
+#include <stdio.h>
+
 char name[] = "sami";
 
 int num_1 = 9;

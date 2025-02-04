@@ -3,7 +3,7 @@
 print("it worked!")
 name ="Vienna"
 
-Subject =input("what is your favorite subject: ")
+subject =input("what is your favorite subject: ")
 
 small_number = 4
 

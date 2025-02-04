@@ -1,3 +1,4 @@
+// Samantha Naranjo, TEMPlATE
 #include <stdio.h>
 
 int main(void){
