@@ -14,4 +14,4 @@ char eye_color[] = "dark brown";
 
 int age = 14;
 
-char fav_class = "math";
+char favorite_subject[] = "math";
