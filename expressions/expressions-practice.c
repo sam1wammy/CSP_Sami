@@ -4,5 +4,5 @@
 
 int main(void){ 
 printf(7-24/8*4+6);
-num = 1;
-return 0;}
+    
+    return 0;}

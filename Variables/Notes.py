@@ -9,4 +9,4 @@ small_number = 4
 
 name = "Tia"
 
-print(name,"Really likes", Subject)
+print(name,"Really likes", subject)
