@@ -13,7 +13,7 @@ utilities = float(input("what are your utilities?\n"))
 
 gorceries = float(input("what are your groceries?\n"))
 
-transportation = float(input("what transporation do you use?\n"))
+transportation = float(input("how much is your transporation?\n"))
 
 savings = income * 0.1
 
