@@ -29,14 +29,16 @@ income_transportation = transportation/income *100
 
 income_spending = spending/income *100
 
-your_rent = print ("Your rent is $rent which is income% of your income\n")
+savings_percentage = (savings / income) * 100
 
-your_utilitites = (print("your utilitites are $xx.xx which is xx% of your income\n "))
- 
-your_groceries = (print("your groceries are $xx.xx which is xx% of your income\n"))
+print(f"Your rent is ${rent:.2f} which is {income_rent:.2f}% of your income.")
 
-your_transportation = (print("your transportation is $xx.xx which is xx% of your income\n "))
+print(f"Your utilities are ${utilities:.2f} which is {income_utitlities:.2f}% of your income.")
 
-your_savings = (print("your savings are $xx.xx which is xx% of your income\n"))
+print(f"Your groceries are ${gorceries:.2f} which is {income_groceries:.2f}% of your income.")
 
-your_spending = (print("your spending is $xx.xx which is xx% of your income\n"))
+print(f"Your transportation is ${transportation:.2f} which is {income_transportation:.2f}% of your income.")
+
+print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
+
+print(f"Your spendings are ${spending:.2f} which is {income_spending:.2f}% of your income.")
