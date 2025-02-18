@@ -1,0 +1,2 @@
+#samantha naranjo, notes funtion
+
