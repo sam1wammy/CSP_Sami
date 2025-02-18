@@ -17,8 +17,6 @@ transportation = float(input("how much is your transporation?\n"))
 
 savings = income * 0.1
 
-spending = float(input("how much money do you spend\n"))
-
 income_rent = rent/income*100
 
 income_utitlities = utilities/income*100
@@ -26,8 +24,6 @@ income_utitlities = utilities/income*100
 income_groceries = gorceries/income*100
 
 income_transportation = transportation/income *100
-
-income_spending = spending/income *100
 
 savings_percentage = (savings / income) * 100
 
@@ -41,4 +37,3 @@ print(f"Your transportation is ${transportation:.2f} which is {income_transporta
 
 print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
 
-print(f"Your spendings are ${spending:.2f} which is {income_spending:.2f}% of your income.")
