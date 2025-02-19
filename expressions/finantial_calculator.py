@@ -37,3 +37,9 @@ print(f"Your transportation is ${transportation:.2f} which is {income_transporta
 
 print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
 
+#your savings are $XX.XX which is XX% of your income. (Print)
+savings_percentage = (savings / income) * 100  # Calculate savings percentage
+print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
+
+#your spendings are $XX.XX which is XX% of your income. (Print)
+print(f"Your spendings are ${income:.2f} which is {savings_percentage:.2f}% of your income.")

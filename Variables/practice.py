@@ -6,16 +6,16 @@ samll_number = 8
 
 big_number = 56
 
-print = ("I had a smootie for breakfast")
+breakfast = "I had a smootie for breakfast"
 
-print = ("my favorite color is pink")
+favorite_color = "my favorite color is pink"
 
-print = ("ucas")
+school = "ucas"
 
 year = 2025
 
-print = ("my eyes are brown")
+eye_color = "my eyes are brown"
 
-print = ("im fourteen")
+age = "im fourteen"
 
-print = ("I like lunch")
+favorite_class = "I like lunch"
