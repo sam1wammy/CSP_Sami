@@ -1,4 +1,4 @@
-// Samantha naranjo, First Progam c
+// Samantha naranjo, practice c
 #include <stdio.h>
 
 int main(void){
@@ -11,6 +11,8 @@ int main(void){
 
     char breakfast[] = "I had a breakfast burrito!";
 
+    char favorite_color[] = "My favorite color is pink";
+
     char school_name[] = "UCAS";
 
     int year = 2025;
@@ -20,5 +22,6 @@ int main(void){
     int age = 14;
 
     char favorite_subject[] = "math";
+    
     return 0;
 }
