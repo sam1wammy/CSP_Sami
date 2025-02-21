@@ -32,6 +32,6 @@ print(f"Your groceries are ${groceries:.2f} which is {income_groceries:.2f}% of 
 
 print(f"Your transportation is ${transportation:.2f} which is {income_transportation:.2f}% of your income.")
 
-print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of your income.")
+print(f"Your savings are ${savings:.2f}")
 
-print(f"Your spendings are ${income-savings-transportation-income-groceries-utilities-rent:.2f} which is {income-savings-transportation-income-groceries-utilities-rent:.2f}% of your income.")
+print(f"Your total expenses are ${rent+groceries+transportation+utilities:.2f}")
