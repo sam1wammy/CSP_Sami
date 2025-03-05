@@ -43,14 +43,3 @@ print(f"Your savings are ${savings:.2f} which is {savings_percentage:.2f}% of yo
 
 #your spendings are $XX.XX which is XX% of your income. (Print)
 print(f"Your spendings are ${income/savings:.2f} which is {savings_percentage:.2f}% of your income.")
-
-info(rent, income, "rent")
-info(utilities, income, "rent")
-info(gorceries, income, "rent")
-info(transportation, income, "rent")
-info(savings, income, "rent")
-rent = 7000  
-utilities = 700  
-groceries = 506  
-transportation = 5096  
-savings = 900000  
