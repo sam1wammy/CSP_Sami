@@ -1,4 +1,5 @@
 #samantha naranjo, finantial cal update
+
 print("welcome user this program helps you calculate your savings ad how much you have to spend!you can only type the number!")
 
 income = float(input("what is your income?\n"))
@@ -34,4 +35,3 @@ print(f"Your transportation is ${transportation:.2f} which is {income_transporta
 print(f"Your savings are ${savings:.2f}")
 
 print(f"Your total expenses are ${rent+groceries+transportation+utilities:.2f}")
-
