@@ -1,7 +1,7 @@
 #samantha naranjo, finantial cal update
 
 def get_user_inputs():  
-    #ask user what their monthly income is (variable, an input) then kinda do that with all the others, look at old finantial calc  
+
     income = float(input("What is your income?\n"))  
 
 
