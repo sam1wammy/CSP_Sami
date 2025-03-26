@@ -7,7 +7,6 @@ float get_user_input(char *prompt) {
     scanf("%f", &value);
     return value;
 }
-
 void print_result(char *item_name, float amount, float income) {
     float percentage = (amount / income) * 100;
     printf("Your %s are $%.2f which is %.2f%% of your income.\n", item_name, amount, percentage);
