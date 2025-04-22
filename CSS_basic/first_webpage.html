@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>first website project</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+            /* General styles */
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+                font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+            }
+
+            body {
+                background-color: rgb(255, 231, 165);
+                color: rgb(255, 158, 120);
+                padding: 20px;
+                display: grid;
+                grid-template-rows: auto 1fr auto;
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            header {
+                text-align: center;
+                padding: 20px;
+                background-color: rgb(255, 200, 150);
+                border-radius: 10px;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            section {
+                padding: 20px;
+                background-color: rgb(255, 245, 220);
+                border-radius: 10px;
+            }
+
+            img {
+                width: 100%;
+                max-width: 300px;
+                display: block;
+                margin: 0 auto;
+                border-radius: 10px;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            footer {
+                text-align: center;
+                padding: 10px;
+                background-color: rgb(255, 200, 150);
+                border-radius: 10px;
+            }
+
+            h1, h2, h4 {
+                margin-bottom: 10px;
+            }
+
+            p {
+                margin-bottom: 10px;
+                line-height: 1.6;
+            }
+
+            a {
+                color: rgb(255, 100, 80);
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Cheetahs, the best cats</h1>
+        </header>
+        <main>
+            <section>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROH9a9l3SYTsv7lOEGGZOeb7tfSSOVH55AGQ&s" alt="Naommie cappembell">
+                <p>Picture from Instagram</p>
+                <h2>The origin of cheetahs</h2>
+                <p>Cheetahs originated from North America, specifically in Texas, Nevada, and Wyoming. They eventually migrated to Eurasia and Africa...</p>
+            </section>
+            <section>
+                <img src="https://www.joelsartore.com/wp-content/uploads/stock/ANI105/ANI105-00186-1920x1279.jpg" alt="Cheetah standing">
+                <p>Picture from Joel Sartore</p>
+                <h2>Different Cheetah species!</h2>
+                <ul>
+                    <li>The Asiatic Cheetah</li>
+                    <li>The North West African Cheetah or Saharan Cheetah</li>
+                    <li>The Northeast African cheetah</li>
+                    <li>The East African cheetah</li>
+                    <li>The Southeast African cheetah</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Cheetah fun facts!</h2>
+                <p>You might think you know all these fun facts about cheetahs, but did you always really understand them?...</p>
+            </section>
+        </main>
+        <footer>
+            <h4>By Samantha N.</h4>
+            <a href="https://www.whipsnadezoo.org/zoo-stories/news/10-things-you-didnt-know-about-cheetahs">Click here to learn more facts!</a>
+        </footer>
+    </body>
+</html>
