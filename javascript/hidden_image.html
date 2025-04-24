@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Hidden image</title>
+        <style>
+         body {
+          background-color: cyan;
+          color: blue;
+        }
+        .molle-regular-italic {
+          font-family: "Molle", cursive;
+          font-weight: 400;
+          font-style: italic;
+        }
+        header h1 {
+            color: darkblue;
+        }
+        h2 {
+            color: navy;
+        }
+        ul li {
+            color: blue;
+        }
+        img {
+            opacity: 0; /* Make the image invisible by default */
+            transition: opacity 0.5s ease; /* Smooth transition effect */
+        }
+        img:hover {
+            opacity: 1; /* Make the image visible when hovered */
+        }
+        img{
+           height: 200px;
+        }
+        #dyn {
+            display: none; /* Hide the div by default */
+            margin-top: 20px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid blue;
+            border-radius: 5px;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-items: center;
+        }
+        </style>
+    </head>
+    <body>
+       <header>
+           <h1>Clouds!</h1>
+       </header>
+       <main>
+           <h2>Why are clouds important?</h2>
+           <p>Clouds are important because they help make the Earth habitable. Clouds are crucial for Earth's climate, weather, and water cycle. Without clouds we would not have rain or any climate chang eat all and the Earth would not be habitable.</p>
+       </main>
+       <h2>Different types of Clouds!</h2>
+       <ul>
+           <li>cirrus</li>
+           <li>cumulus</li>
+           <li>stratus</li>
+       </ul>
+       <h2>Find the Cloud!</h2>
+       <img src="https://static.vecteezy.com/system/resources/thumbnails/046/032/357/small_2x/special-3d-rendering-smooth-clouds-flowing-shapes-isolated-transparent-backgrounds-png.png" alt="cloud">
+       <button id="more-info-button">More Info About Clouds</button>
+       <div id="dyn">
+           <p>Clouds are made up of tiny water droplets or ice crystals that form when water vapor in the air cools and condenses. They play a vital role in regulating Earth's temperature and weather patterns.</p>
+       </div>
+       <script>
+           // JavaScript to show the hidden text when the button is clicked
+           const button = document.getElementById('more-info-button');
+           const dynamicDiv = document.getElementById('dyn');
+
+           button.addEventListener('click', () => {
+               dynamicDiv.style.display = 'block'; // Show the hidden div
+           });
+       </script>
+    </body>
+</html>
