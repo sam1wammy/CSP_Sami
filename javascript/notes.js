@@ -1,3 +1,2 @@
-function hello(){
-    document.getElementById("title").innerHTML = "hello world"
-}
+alert("Hello word
+    ")
