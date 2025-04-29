@@ -14,13 +14,24 @@
                 font-style: italic;
             }
             body {
-                background-color: rgb(255, 231, 165);
+                background-color: rgb(255, 189, 146);
                 color: rgb(255, 158, 120);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+            .container {
+                width: 90%;
+                max-width: 2000px;
                 padding: 20px;
                 display: grid;
                 grid-template-rows: auto 1fr auto;
                 grid-template-columns: 1fr;
                 gap: 20px;
+                background-color: rgb(255, 231, 165);
+                border-radius: 10px;
             }
             main {
                 display: flex;
@@ -38,37 +49,53 @@
                 background-color: rgb(233, 156, 84);
                 border-radius: 10px;
             }
-            h1{
+            h1 {
                 color: rgb(72, 120, 182);
+                text-align: center;
+                font-size: 2.25rem;
             }
             h2 {
                 color: rgb(93, 144, 255);
+                text-align: center;
             }
-            img{ 
-                height: 100px;
-                width: 100px;
-                color: rgb(93, 144, 255);
-                border-color: rgb(175, 102, 43);
-                align-content: center;
+            img {
+                display: block;
+                margin: auto;
+                width: 20%;
             }
+            p {
+                text-align: center;
+                font-size: 1.25rem;
+            }
+            ul {
+                padding: 0;
+                text-align: center;
+            }
+
         </style>
     </head>
     <body>
-        <section>
-     <h1>Little Sahara</h1>
-     <h2>Why you should visit Little Sahara</h2>
-        <p>Little Sahara is a unique desert landscape located in the heart of Utah. It offers stunning views, thrilling sand dunes, and a chance to experience the beauty of nature. Whether you're into hiking, photography, or just relaxing in a beautiful setting, Little Sahara has something for everyone. Little sahara is also a great get-away fro a weekend since it's located in Juab County, Utah and is 1hr and 11min away from Provo.</p>
-        </section>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROPf_WyhJH8fh8CDIiKl0aDIis5yXv0WZLlQ&s" alt="little sahara">
-       <p>Image from St. Andre Photography </p>
-        <section>
-        <h2>Different activities you can do in little Sahara</h2>
-        <ul>
-        <li>ATV riding</li>
-        <li>fat-biking</li>
-    <li>sandboarding</li>
-    <li>wildlife viewing</li>
-    </ul>
-</section>
-</body>
+        <div class="container">
+            <section>
+                <h1>Little Sahara</h1>
+                <h2>Why you should visit Little Sahara</h2>
+                <p>Little Sahara is a unique desert landscape located in the heart of Utah. It offers stunning views, thrilling sand dunes, and a chance to experience the beauty of nature. Whether you're into hiking, photography, or just relaxing in a beautiful setting, Little Sahara has something for everyone. Little sahara is also a great get-away fro a weekend since it's located in Juab County, Utah and is 1hr and 11min away from Provo.</p>
+            </section>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROPf_WyhJH8fh8CDIiKl0aDIis5yXv0WZLlQ&s" alt="little sahara">
+            <p>Image from St. Andre Photography </p>
+            <section>
+                <h2>Different activities you can do in little Sahara</h2>
+                <ul>
+                    <li>ATV riding</li>
+                    <li>fat-biking</li>
+                    <li>sandboarding</li>
+                    <li>wildlife viewing</li>
+                </ul>
+            </section>
+            <img src="https://kangarooislandtoursaustralia.com.au/wp-content/uploads/2024/10/Little-Sahara.jpg" alt="people alking in little sahara">
+            <p>Image from Kangaroo Island Tours Australia</p>
+            <button id="info">click(function(){
+                $("p").hide(1000);</button>
+        </div>
+    </body>
 </html>
