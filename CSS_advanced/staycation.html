@@ -4,8 +4,9 @@
         <meta charset="UTF-8">
         <title>Staycation</title>
         <link href="https://fonts.googleapis.com/css2?family=Molle:ital,wght@1,400&display=swap" rel="stylesheet">
+       <script src="staycation.js"></script>
         <style>
-               .hiden{
+        #hidden{
             display: none;
         }
         .button {
@@ -20,6 +21,7 @@
             cursor: pointer;
             height: 50px;
             width: 70px;
+            border-radius: 10px;
         }
 
             * {
@@ -94,11 +96,11 @@
     <body>
         <div class="container">
             <section>
-                <h1>Little Sahara</h1>
+                <h1 id="title">Little Sahara</h1>
                 <h2>Why you should visit Little Sahara</h2>
-                <p>Little Sahara is a unique desert landscape located in the heart of Utah. It offers stunning views, thrilling sand dunes, and a chance to experience the beauty of nature. Whether you're into hiking, photography, or just relaxing in a beautiful setting, Little Sahara has something for everyone. Little sahara is also a great get-away fro a weekend since it's located in Juab County, Utah and is 1hr and 11min away from Provo, this amazing placwhere many ecosystems live, people have fun, and ther eis beutiful landscapes, you can also stay a whole night either by camping in "Little Sahara State park" for 33$ per night or go to  </p>
+                <p>Little Sahara is a unique desert landscape located in the heart of Utah. It offers stunning views, thrilling sand dunes, and a chance to experience the beauty of nature. Whether you're into hiking, photography, or just relaxing in a beautiful setting, Little Sahara has something for everyone. Little sahara is also a great get-away fro a weekend since it's located in Juab County, Utah and is 1hr and 11min away from Provo, this amazing placwhere many ecosystems live, people have fun, and ther eis beutiful landscapes, you can also stay a whole night either by camping in "Little Sahara State park" for 33$ per night or go to one of the many hotels this awesome place has. </p>
             </section>
-            <img src="https://media.istockphoto.com/id/184268525/photo/xl-desert-sand-sunset.jpg?s=612x612&w=0&k=20&c=K-lfeycK1Nza2aNFrm-9jV5qpgyYxRo275qhBOyLdhI=" alt="little sahara">
+            <img src="https://media.istockphoto.com/id/184268525/photo/xl-desert-sand-sunset.jpg?s=612x612&w=0&k=20&c=K-lfeycK1Nza2aNFrm-9jV5qpgyYxRo275qhBOyLdhI=" alt="Sunset over the sand dunes at Little Sahara">
             <p>Image from Getty Images </p>
             <section>
                 <h2>Different activities you can do in little Sahara</h2>
@@ -111,15 +113,10 @@
             </section>
             <img src="https://www.blm.gov/sites/default/files/styles/og_image/public/images/2024-03/Sunset%20lights%20up%20the%20sand%20dunes%20at%20Little%20Sahara%20Recreation%20Area.%20Photo%20by%20Bob%20Wick%2C%20BLM..JPG?h=d0ac2bc6&itok=OuLdH96b" alt="little sahara and mountains">
             <p>Image from Bureau of Land Managment</p>
-    <button class="button">Click Me!</button>
-    <p class="hidden">hello world!</p>
-    <script>
-        const button = document.querySelector('.button');
-        const hiddenText = document.querySelector('.hidden');
-
-        button.addEventListener('click', () => {
-            hiddenText.classList.toggle('hiden');
-        });
+        <button id="more-info-button" class="button" onclick="revel()">Click Me!</button>
+            <div id="hidden">
+                <p>Little Sahara is a perfect destination for adventure lovers. Don't miss the chance to explore its beauty!</p>
+                <img src="" alt="">
     </div>
     </body>
 </html>

@@ -1,23 +1,28 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>CSS Advanced notes</title>
-        <<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Fleur+De+Leah&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <h1>CSS advanced notes</h1>
-        <div id="content">
-     <div id="box">
-        <p>Box 1</p
-    <div id="box">
-        <p>Box 2</p>
-    <div id="box">
-        <p>Box 3</p
-    <div id="box">
-        <p>Box 4</p
-        </body>
-</html>
+<section>
+    <h2>Different activities you can do in Little Sahara</h2>
+    <ul>
+        <li>ATV riding</li>
+        <li>Fat-biking</li>
+        <li>Sandboarding</li>
+        <li>Wildlife viewing</li>
+    </ul>
+</section>
+<img src="https://www.blm.gov/sites/default/files/styles/og_image/public/images/2024-03/Sunset%20lights%20up%20the%20sand%20dunes%20at%20Little%20Sahara%20Recreation%20Area.%20Photo%20by%20Bob%20Wick%2C%20BLM..JPG?h=d0ac2bc6&itok=OuLdH96b" alt="little sahara and mountains">
+<p>Image from Bureau of Land Management</p>
+
+<!-- Button -->
+<button id="more-info-button" class="button">Click Me!</button>
+<!-- Hidden text -->
+<div id="dyn" class="hiden">
+    <p>Little Sahara is a perfect destination for adventure lovers. Don't miss the chance to explore its beauty!</p>
+</div>
+
+
+<script>
+    const button = document.getElementById('more-info-button');
+    const dynamicDiv = document.getElementById('dyn');
+
+    button.addEventListener('click', () => {
+        dynamicDiv.style.display = 'block'; // Show the hidden div
+    });
+</script>
