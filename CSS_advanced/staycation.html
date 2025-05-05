@@ -24,34 +24,34 @@
             border-radius: 10px;
         }
 
-            * {
-                box-sizing: border-box;
-                margin: 0;
-                padding: 0;
-                font-family: "Molle", cursive;
-                font-weight: 400;
-                font-style: italic;
-            }
-            body {
-                background-color: rgb(214, 126, 63);
-                color: rgb(202, 127, 73)
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                margin: 0;
-            }
-            .container {
-                width: 90%;
-                max-width: 2000px;
-                padding: 20px;
-                display: grid;
-                grid-template-rows: auto 1fr auto;
-                grid-template-columns: 1fr;
-                gap: 20px;
-                background-color: rgb(243, 172, 106);
-                border-radius: 10px;
-            }
+        * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Molle", cursive;
+        font-weight: 400;
+        font-style: italic;
+    }
+    body {
+        background-color: rgb(214, 126, 63);
+        color: rgb(202, 127, 73);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        width: 90%;
+        max-width: 2000px;
+        padding: 20px;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        background-color: rgb(243, 172, 106);
+        border-radius: 10px;
             main {
                 display: flex;
                 flex-direction: column;
@@ -97,7 +97,7 @@
                 transition: all 0.3s ease-in-out;
             }
             li{
-                color: rgb(230, 146, 73);
+                color: rgb(33, 59, 114);
             }
         </style>
     </head>
@@ -123,7 +123,7 @@
             <p>Image from Bureau of Land Managment</p>
         <button id="more-info-button" class="button" onclick="revel()">Click Me!</button>
             <div id="hidden">
-                <p>The dunes at Little Sahara are like a playground for off highway vehicle enthusiast,with difficult climbs like Sand Mountain which is 700ft tall and easier areas for bigginers.</p>
+                <p>The dunes at Little Sahara are like a playground for off highway vehicle enthusiast,with difficult climbs like Sand Mountain which is 700ft tall and easier areas for bigginers. This place is a lost treasure that is usally not well recognized by people in Utah and outside Utah</p>
                 <img id="hidden-image" onmouseenter="show()" onmouseleave="hide()" src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/76/9a/7f/caption.jpg?w=300&h=300&s=1" alt="cathedral valley in little sahara">
                 <p id="second image">Image from TripAdvisor</p>
     
